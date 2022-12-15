@@ -1,4 +1,6 @@
--- import: fifthtry.github.io/Giggle-Presentation-Theme as theme
+-- import: fifthtry.github.io/Giggle-Presentation-Theme/library as library
+-- import: fifthtry.github.io/Giggle-Presentation-Theme/presentation as presentation
+-- import: fifthtry.github.io/Giggle-Presentation-Theme/slide as slide
 
 -- library.total: 3
 
@@ -10,15 +12,15 @@ title: Title 1
 subtitle: Subtitle Text Added Here
 text: Presentations Templates are communication tools that can be used as lectures, reports, and more.
 slide-number: 0
-image-1: static/pic1.jpeg
+image-1: $assets.files.static.pic1.jpeg
 
 -- slide.slide:
 type: 2
 title: Title 2
 subtitle: Subtitle Text Added Here
 slide-number: 1
-image-1: static/pic2.jpeg
-image-2: static/pic1.jpeg
+image-1: $assets.files.static.pic2.jpeg
+image-2: $assets.files.static.pic1.jpeg
 
 Presentations Templates are communication tools that can be used as lectures, reports, and more.
 
@@ -31,8 +33,8 @@ type: 3
 title: Title 3
 subtitle: Subtitle Text Added Here
 slide-number: 2
-image-1: static/pic2.jpeg
-image-2: static/pic1.jpeg
+image-1: $assets.files.static.pic2.jpeg
+image-2: $assets.files.static.pic1.jpeg
 
 Presentations Templates are communication tools that can be used as lectures, reports, and more.
 
@@ -46,8 +48,8 @@ type: 4
 title: Title 4
 subtitle: Subtitle Text Added Here
 slide-number: 3
-image-1: static/pic2.jpeg
-image-2: static/pic1.jpeg
+image-1: $assets.files.static.pic2.jpeg
+image-2: $assets.files.static.pic1.jpeg
 
 Presentations Templates are communication tools that can be used as lectures, reports, and more.
 
